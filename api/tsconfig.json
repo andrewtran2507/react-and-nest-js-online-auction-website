@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@root": ["./src/*"],
+      "@api": ["./src/api/*"],
+      "@common": ["./src/common/*"],
+      "@shared": ["./src/shared/*"],
+      "@utils": ["./src/utils/*"],
+    },
+    "incremental": true,
+    "skipLibCheck": true
+  }
+}
